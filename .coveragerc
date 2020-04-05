@@ -1,0 +1,27 @@
+# .coveragerc to control coverage.py
+
+[run]
+branch = True
+omit = test_*
+timid = True
+source=src
+data_file = test/output/.coverage
+
+[report]
+fail_under = 100
+precision = 2
+show_missing = True
+exclude_lines =
+        if __name__ == '__main__':
+[html]
+directory = test/report
+show_contexts = True
+title = "Project1 Coverage Report"
+
+[xml]
+output = test/report/coverage_report.xml
+package_depth = 99
+
+[json]
+output = test/report/coverage_report.json
+show_contexts = True
