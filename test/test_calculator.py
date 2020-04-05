@@ -22,3 +22,5 @@ class TestSample(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+else:
+    print('Start Test: '+__name__+'.py') 
