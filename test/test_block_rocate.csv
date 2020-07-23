@@ -1,0 +1,8 @@
+in_block_type, in_block_type_index, exp_sq1x, exp_sq1y, exp_sq2x, exp_sq2y, exp_sq3x, exp_sq3y, exp_sq4x, exp_sq4y
+I, 0, 0,0,0,1,0,2,0,3
+S, 1, 0,0,0,1,-1,0,-1,-1
+J, 2, 0,0,0,1,0,2,-1,2
+O, 3, 0,0,0,1,1,0,1,1
+Z, 4, 0,-1,0,0,-1,0,-1,1
+T, 5, 0,0,0,1,0,2,-1,1
+J, 6, 0,0,0,1,0,2,-1,0

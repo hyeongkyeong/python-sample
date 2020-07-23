@@ -1,1 +1,4 @@
+coverage==5.1
+html-testRunner==1.2.1
+pygame==1.9.6
 xmlrunner==1.7.7
